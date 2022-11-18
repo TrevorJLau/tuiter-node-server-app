@@ -7,6 +7,8 @@ const createTuit = (req, res) => {
     newTuit.likes = 0;
     newTuit.liked = false;
 
+    newTuit.replies = 0
+    newTuit.retuits = 0
     newTuit.username = "NASA"
     newTuit.handle = "@nasa"
     newTuit.time = "now"
